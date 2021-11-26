@@ -1,6 +1,18 @@
-    h2, h4
+    h2
             {
                 text-align: center;
-            }
 
-            
+            }
+    h4
+            {
+
+            }
+    div.text
+            {
+                float: left;
+	            margin-left: 100px;
+            }        
+    p
+            {
+                font-size: 10pt;
+            }
