@@ -1,0 +1,65 @@
+h1 {
+    text-align: left;
+    color: red;
+    margin-left: 20mm;
+    }
+
+    h2 {
+        text-align: left;
+        color: pink;
+        margin-left: 40mm;
+        }
+
+        h3 {
+            text-align: left;
+            color: green;
+            margin-left:60mm;
+            }
+p {
+text-align: left;
+color: red;
+margin-left: 80mm;
+margin-right: 40mm;
+}
+
+
+p2 {
+    text-align: left;
+    color: rgb(53, 173, 59);
+    margin-left: 100mm;
+    margin-right: 40mm;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #para1 {
+                text-align: center;
+                color: blue;
+            }
+
+
+
+
+
+
+
+            #div {
+                text-align: center;
+                color: red;
+            }
+
+
+            .center {
+                text-align: center;
+                color: yellow;
+                }
