@@ -87,7 +87,7 @@ div.closer {
     }
     
     h2 {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     h3 {
@@ -95,7 +95,7 @@ div.closer {
     }
 
     h4 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     img {
         width: 48%;        
@@ -103,24 +103,30 @@ div.closer {
 }
 
 @media (max-width: 480px){
+    .text {
+      margin: auto;
+      text-align: center;  
+    }  
+
     div {
-        font-size: 0.5rem; 
+        font-size: 0.7rem; 
         }
     
     h2 {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     h4 {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     img {
-        width: 55%; 
-        float: none;        
+        width: 60%; 
+        float: none;       
+        margin: 10px 5px 10px 5px; 
     }
 }
 
