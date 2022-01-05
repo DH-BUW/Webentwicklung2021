@@ -35,3 +35,92 @@ div.closer {
     text-indent: 15em;
     letter-spacing: 0.3em;
 }
+
+@media (max-width: 1150px) {
+    div {
+        font-size: 0.85rem;       
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.85rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }   
+
+    img {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 900px){
+    div {
+        font-size: 0.8rem;       
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }   
+
+    img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 720px){
+    div {
+        font-size: 0.6rem;        
+    }
+    
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+    img {
+        width: 48%;        
+    }
+}
+
+@media (max-width: 480px){
+    div {
+        font-size: 0.5rem; 
+        }
+    
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        font-size: 0.5rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+    img {
+        width: 55%; 
+        float: none;        
+    }
+}
+
