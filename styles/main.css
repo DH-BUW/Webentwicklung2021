@@ -36,9 +36,12 @@ div.closer {
     letter-spacing: 0.3em;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1185px) {
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
     div {
-        font-size: 0.85rem;       
+        font-size: 0.9rem;              
     }
 
     h2 {
@@ -46,7 +49,7 @@ div.closer {
     }
 
     h3 {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     h4 {
@@ -59,9 +62,12 @@ div.closer {
 
 }
 
-@media (max-width: 900px){
+@media (max-width: 984px){
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
     div {
-        font-size: 0.8rem;       
+        font-size: 0.8rem; 
     }
 
     h2 {
@@ -81,36 +87,13 @@ div.closer {
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 790px){
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
     div {
-        font-size: 0.6rem;        
+        font-size: 0.7rem;  
     }
-    
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 0.6rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-    img {
-        width: 48%;        
-    }
-}
-
-@media (max-width: 480px){
-    .text {
-      margin: auto;
-      text-align: center;  
-    }  
-
-    div {
-        font-size: 0.7rem; 
-        }
     
     h2 {
         font-size: 1.5rem;
@@ -124,9 +107,63 @@ div.closer {
         font-size: 1.2rem;
     }
     img {
-        width: 60%; 
-        float: none;       
-        margin: 10px 5px 10px 5px; 
+        width: 45%;        
+    }
+}
+
+@media (max-width: 682px){      
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
+
+    div {
+        font-size: 0.6rem; 
+        }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+    img {
+        width: 45%;         
+    }
+}
+
+@media (max-width: 585px){  
+    .text {
+        margin: 0 auto;
+        justify-content: center;
+    }    
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
+
+    div {
+        font-size: 0.9rem; 
+        }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+    img {
+        width: 85%;  
+        float: none;
+        margin: 10px 5px 10px 5px;       
     }
 }
 
