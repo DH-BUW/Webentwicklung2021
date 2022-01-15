@@ -15,6 +15,31 @@ body {
     }
 }
 
+@media (max-width: 984px){
+    body {
+        margin: 10px 15px 10px 15px; 
+    }
+    div {
+        font-size: 0.8rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }   
+
+    img {
+        width: 45%;
+    }
+}
+
 img {
     float: right;
 }
@@ -47,4 +72,13 @@ div.indent {
 div.closer {
     text-indent: 15em;
     letter-spacing: 0.3em;
+}
+
+.high {
+    background-color: rgb(0,255,0);
+}
+
+
+.hidden {
+    visibility: hidden;
 }
