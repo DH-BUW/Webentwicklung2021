@@ -36,4 +36,13 @@ div.closer {
     letter-spacing: 0.3em;
 }
 
-div.high
+/* Aufgabe 2 */
+.high {
+    background-color: rgb(0,255,0);
+}
+
+
+/* Aufgabe 3 */
+.hidden {
+    visibility: hidden;
+}
